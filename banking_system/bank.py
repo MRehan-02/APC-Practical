@@ -4,7 +4,7 @@ class BankAccount:
         self.name = name
         self.balance = balance
         print("Account created for", self.name)
-
+        
     def deposit(self, amount):
         self.balance = self.balance + amount
         print("Deposited:", amount)

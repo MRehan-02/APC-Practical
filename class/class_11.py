@@ -1,5 +1,4 @@
 class ShoppingCart:
-
     def __init__(self, customer_name, cart_id):
         self.customer_name = customer_name
         self.cart_id = cart_id
@@ -21,7 +20,6 @@ class ShoppingCart:
     def __del__(self):
         print("Shopping cart of", self.customer_name, "destroyed")
 
-
 customer_name = input("Enter customer name: ")
 cart_id = input("Enter cart ID: ")
 
@@ -32,7 +30,6 @@ for i in range(n):
     name = input("Enter product name: ")
     price = float(input("Enter price: "))
     cart.add_product(name, price)
-
 print("Total Bill =", cart.calculate_total())
 
 del cart

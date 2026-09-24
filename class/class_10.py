@@ -1,5 +1,4 @@
 class Vehicle:
-
     def __init__(self, vehicle_no, model, rental_rate, available):
         self.vehicle_no = vehicle_no
         self.model = model
@@ -17,7 +16,6 @@ class Vehicle:
     def return_vehicle(self):
         self.available = True
         print("Vehicle returned")
-
 
 vehicle_no = input("Enter vehicle number: ")
 model = input("Enter model: ")

@@ -1,5 +1,4 @@
 class Student:
-
     def __init__(self, roll_no, name, marks):
         self.roll_no = roll_no
         self.name = name
@@ -11,7 +10,6 @@ class Student:
         print("Name:", self.name)
         print("Marks:", self.marks)
         print("Percentage:", percentage)
-
 
 n = int(input("How many students: "))
 students = []

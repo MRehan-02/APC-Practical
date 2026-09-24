@@ -1,5 +1,4 @@
 class Patient:
-
     def __init__(self, patient_id, name, age, disease, consultation_fee):
         self.patient_id = patient_id
         self.name = name

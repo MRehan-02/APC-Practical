@@ -1,5 +1,4 @@
 class Book:
-
     def __init__(self, book_id, title, author, price):
         self.book_id = book_id
         self.title = title
@@ -14,7 +13,6 @@ class Book:
 
 
 books = []
-
 for i in range(3):
     book_id = input("Enter book ID: ")
     title = input("Enter title: ")

@@ -1,5 +1,4 @@
 class Employee:
-
     def __init__(self, emp_id, name, basic_salary):
         self.emp_id = emp_id
         self.name = name
@@ -13,7 +12,6 @@ class Employee:
 
     def calculate_gross_salary(self):
         return self.basic_salary + self.calculate_hra() + self.calculate_da()
-
 
 emp_id = input("Enter employee ID: ")
 name = input("Enter employee name: ")

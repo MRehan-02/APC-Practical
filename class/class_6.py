@@ -1,5 +1,4 @@
 class ElectricityBill:
-
     def __init__(self, consumer_no, consumer_name, units):
         self.consumer_no = consumer_no
         self.consumer_name = consumer_name
@@ -20,5 +19,4 @@ consumer_name = input("Enter consumer name: ")
 units = int(input("Enter units consumed: "))
 
 bill_obj = ElectricityBill(consumer_no, consumer_name, units)
-
 print("Electricity Bill =", bill_obj.calculate_bill())

@@ -1,5 +1,4 @@
 class ATM:
-
     def __init__(self, account_holder, balance):
         self.account_holder = account_holder
         self.balance = balance
@@ -22,12 +21,10 @@ class ATM:
         print("Account Holder:", self.account_holder)
         print("Balance:", self.balance)
 
-
 name = input("Enter account holder name: ")
 balance = float(input("Enter initial balance: "))
 
 atm = ATM(name, balance)
-
 while True:
     print("\n1.Check Balance 2.Deposit 3.Withdraw 4.Account Details 5.Exit")
     choice = int(input("Enter choice: "))

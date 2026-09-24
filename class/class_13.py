@@ -1,5 +1,4 @@
 class StudentResult:
-
     def __init__(self, name, marks):
         self.name = name
         self.marks = marks
@@ -23,7 +22,6 @@ class StudentResult:
 
     def __del__(self):
         print("Result processing for", self.name, "completed")
-
 
 name = input("Enter student name: ")
 marks = []
