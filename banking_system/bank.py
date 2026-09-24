@@ -23,7 +23,6 @@ class BankAccount:
     def __del__(self):
         print("Account of", self.name, "closed. Object destroyed.")
 
-
 name = input("Enter account holder name: ")
 initial_balance = float(input("Enter initial balance: "))
 
