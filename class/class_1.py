@@ -22,7 +22,6 @@ for i in range(n):
     for j in range(3):
         m = int(input("Enter marks for subject " + str(j+1) + ": "))
         marks.append(m)
-
     student = Student(roll_no, name, marks)
     students.append(student)
 

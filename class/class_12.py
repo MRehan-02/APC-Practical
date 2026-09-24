@@ -14,7 +14,6 @@ class FoodOrder:
 
     def __del__(self):
         print("Order", self.order_id, "completed. Thank you", self.customer_name)
-
 order_id = input("Enter order ID: ")
 customer_name = input("Enter customer name: ")
 food_item = input("Enter food item: ")

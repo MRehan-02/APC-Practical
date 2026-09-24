@@ -22,7 +22,6 @@ class StudentResult:
 
     def __del__(self):
         print("Result processing for", self.name, "completed")
-
 name = input("Enter student name: ")
 marks = []
 

@@ -16,7 +16,6 @@ class Vehicle:
     def return_vehicle(self):
         self.available = True
         print("Vehicle returned")
-
 vehicle_no = input("Enter vehicle number: ")
 model = input("Enter model: ")
 rental_rate = float(input("Enter rental rate per day: "))

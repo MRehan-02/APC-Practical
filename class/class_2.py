@@ -18,7 +18,6 @@ name = input("Enter employee name: ")
 basic_salary = float(input("Enter basic salary: "))
 
 emp = Employee(emp_id, name, basic_salary)
-
 print("HRA =", emp.calculate_hra())
 print("DA =", emp.calculate_da())
 print("Gross Salary =", emp.calculate_gross_salary())

@@ -19,7 +19,6 @@ class ShoppingCart:
 
     def __del__(self):
         print("Shopping cart of", self.customer_name, "destroyed")
-
 customer_name = input("Enter customer name: ")
 cart_id = input("Enter cart ID: ")
 

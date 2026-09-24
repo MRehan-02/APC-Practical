@@ -15,7 +15,6 @@ class Patient:
     def calculate_total_bill(self, extra_charges):
         return self.consultation_fee + extra_charges
 
-
 patient_id = input("Enter patient ID: ")
 name = input("Enter name: ")
 age = int(input("Enter age: "))

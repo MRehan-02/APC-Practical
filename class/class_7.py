@@ -13,7 +13,6 @@ class MobilePhone:
 
     def price_after_discount(self, discount_percent):
         return self.price - (self.price * discount_percent / 100)
-
 brand = input("Enter brand: ")
 model = input("Enter model: ")
 storage = input("Enter storage: ")

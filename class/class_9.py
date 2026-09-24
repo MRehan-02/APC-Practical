@@ -20,7 +20,6 @@ class ATM:
     def display_account_details(self):
         print("Account Holder:", self.account_holder)
         print("Balance:", self.balance)
-
 name = input("Enter account holder name: ")
 balance = float(input("Enter initial balance: "))
 

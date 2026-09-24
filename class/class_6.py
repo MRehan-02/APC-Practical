@@ -13,7 +13,6 @@ class ElectricityBill:
             bill = 100*3 + 100*5 + (self.units-200)*8
         return bill
 
-
 consumer_no = input("Enter consumer number: ")
 consumer_name = input("Enter consumer name: ")
 units = int(input("Enter units consumed: "))

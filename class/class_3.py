@@ -13,6 +13,5 @@ length = float(input("Enter length: "))
 breadth = float(input("Enter breadth: "))
 
 rect = Rectangle(length, breadth)
-
 print("Area =", rect.area())
 print("Perimeter =", rect.perimeter())

@@ -7,7 +7,6 @@ class Circle:
 
     def circumference(self):
         return 2 * 3.14 * self.radius
-
 radius = float(input("Enter radius: "))
 circle = Circle(radius)
 

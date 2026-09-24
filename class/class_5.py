@@ -21,7 +21,6 @@ for i in range(3):
 
     book = Book(book_id, title, author, price)
     books.append(book)
-
 for book in books:
     book.display()
     print()
