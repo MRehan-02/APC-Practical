@@ -4,7 +4,7 @@ class BankAccount:
         self.name = name
         self.balance = balance
         print("Account created for", self.name)
-        
+
     def deposit(self, amount):
         self.balance = self.balance + amount
         print("Deposited:", amount)
@@ -28,7 +28,6 @@ name = input("Enter account holder name: ")
 initial_balance = float(input("Enter initial balance: "))
 
 account = BankAccount(name, initial_balance)
-
 while True:
     print("\n1.Deposit 2.Withdraw 3.Check Balance 4.Exit")
     choice = int(input("Enter choice: "))
